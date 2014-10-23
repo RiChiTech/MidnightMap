@@ -13,3 +13,13 @@
 {
 	戰車.frame.orion.Y-10;
 }
+
+- (void)左迴旋
+{
+	戰車.frame = CGRectMark(0,0,120,20)
+}
+
+- (void)右迴旋
+{
+	戰車.frame = CGRectMark(0,0,-120,20)
+}
