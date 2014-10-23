@@ -23,3 +23,15 @@
 {
 	戰車.frame = CGRectMark(0,0,-120,20)
 }
+
+- (void)開砲
+{
+	[戰車 fire];
+}
+
+- (void)發射飛彈
+{
+	[戰車 shooting];
+}
+
+最新版本f3
