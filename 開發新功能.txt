@@ -3,3 +3,33 @@
 新增物件-戰車(HP:250 ATK:40 DEF:30，裝載四枚地對空飛彈)
 
 新增動作-前進、後退、左迴旋、右迴旋、開砲、發射飛彈
+
+- (void)前進
+{
+	戰車.frame.orion.Y+10;
+}
+
+- (void)後退
+{
+	戰車.frame.orion.Y-10;
+}
+
+- (void)左迴旋
+{
+	戰車.frame = CGRectMark(0,0,120,20)
+}
+
+- (void)右迴旋
+{
+	戰車.frame = CGRectMark(0,0,-120,20)
+}
+
+- (void)開砲
+{
+	[戰車 fire];
+}
+
+- (void)發射飛彈
+{
+	[戰車 shooting];
+}
