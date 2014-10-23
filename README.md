@@ -6,4 +6,4 @@ MidnightMap
 1、請先安裝Xcode
 2、先把檔案完整下載
 
-Last version is v1.0
+Last version is v1.2
